@@ -3,7 +3,7 @@ Description
 
 Gentoo Binary Management Service
 
-This software contains a web service that stores and manages binary packages 
+This software contains a web service that stores and manages binary packages
 for a heterogeneous set of Gentoo clients.
 
 It also contains a client application and stock `cron.hourly` file for keeping
@@ -13,6 +13,7 @@ Installation
 ============
 
 This package is available via portage using an overlay::
+
     layman -fo http://www.alunduil.com/svn/portage/trunk/alunduil-overlay.xml -a alunduil-overlay
     emerge gbin
 
